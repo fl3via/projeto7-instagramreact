@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.heart-red {
+  color: red;
+}
+
+
 body {
   background-color: #FAFAFA;
   margin: 54px 0 0;
