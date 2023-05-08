@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 export default function Posts() {
   const post = [
 
@@ -48,7 +50,9 @@ export default function Posts() {
 }
 
 function Post(props) {
-  return (
+const [salvar, setSalvar] = useState(false)
+
+return (
     <div class="post">
       <div class="topo">
         <div class="usuario">
@@ -72,7 +76,7 @@ function Post(props) {
             <ion-icon name="paper-plane-outline" ></ion-icon>
           </div>
           <div>
-            <ion-icon name="bookmark-outline" data-test="save-post"></ion-icon>
+            <ion-icon name={salvar ?  "bookmark" : "bookmark-outline"} onClick={() => setSalvar(!salvar)} data-test="save-post"></ion-icon>
           </div>
         </div>
 
