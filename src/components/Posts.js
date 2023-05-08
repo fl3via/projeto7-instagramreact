@@ -76,7 +76,7 @@ function curtirImagem() {
 
 
 return (
-    <div class="post">
+    <div class="post" data-test="post">
       <div class="topo">
         <div class="usuario">
           <img src={props.imagemUsuario} alt={props.nome} />
