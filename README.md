@@ -1,14 +1,29 @@
-# InstagramReact 
+# ***Instagram*** 
 
-Uma rede social online gratuita de compartilhamento de fotos e videios fácil de usar. Acompanhe seus amigos em tempo real por onde for.  
+## **Visão Geral**
+Uma rede social online gratuita de compartilhamento de fotos e videios fácil de usar. Acompanhe seus amigos em tempo real por onde for. 
 
-## Sobre 
-Este é um aplicativo web com qual muitas pessoas podem interagir uma com outras pessoas. Abaixo estão as funcionalidades implementadas:
+## Deploy
+***Link:*** https://projeto7-instagramreact-fl3via.vercel.app/
 
-* Mudar seu nome de usuário
-* Trocar sua foto de perfil
-* Curtir fotos
-* Salvar posts
+## **Principais Funcionalidades**
+* Mudar seu nome de usuário;
+* Trocar sua foto de perfil;
+* Curtir fotos;
+* Salvar posts.
 
-## Tecnologias 
-![Logo do R](https://icongr.am/devicon/react-original.svg?size=77&color=currentColor)
+## **Tecnologias Utilizadas**
+* React;
+* JavaScript;
+* CSS.
+
+## **Como Executar o Projeto Localmente**
+
+### No Terminal 
+1. **Clone o Repositório:** `git clone` https://github.com/fl3via/projeto7-instagramreact
+2. **Entre na pasta:** `cd` projeto7-instagramreact
+3. **Abra no Visual Estudio Code:** `code .`
+
+### No Visual Estudio Code
+4. **Instale as Dependências:** `npm install`
+5. **Execute o Projeto:** `npm start` 
